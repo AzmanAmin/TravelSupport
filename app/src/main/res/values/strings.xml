@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Travel Support</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="login">Login</string>
+    <string name="user_login">User Login</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="registration">Registration</string>
+    <string name="logout">Logout</string>
+</resources>

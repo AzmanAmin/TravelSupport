@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <include layout="@layout/app_bar_layout" android:id="@+id/login_page_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/back">
+
+        <EditText
+            android:id="@+id/emailInId"
+            android:layout_marginTop="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Your Email"
+            android:textColorHint="#c9c5c5"
+            android:textColor="#aba4a4"
+            android:background="@drawable/input_outline"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"/>
+
+        <EditText
+            android:id="@+id/passwordInId"
+            android:layout_marginTop="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Your Password"
+            android:textColorHint="#c9c5c5"
+            android:textColor="#aba4a4"
+            android:background="@drawable/input_outline"
+            android:inputType="textPassword"
+            android:padding="15dp"/>
+
+        <Button
+            android:id="@+id/registerBtnId"
+            android:layout_marginTop="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textStyle="bold"
+            android:padding="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

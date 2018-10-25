@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "234161967086",
+    "firebase_url": "https://travelsupport-47037.firebaseio.com",
+    "project_id": "travelsupport-47037",
+    "storage_bucket": "travelsupport-47037.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234161967086:android:a626347de8ae79b2",
+        "android_client_info": {
+          "package_name": "com.example.protik.travelsupport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234161967086-h2ed0nrtpu3n5lherbjvmpn4ede4v2p6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.protik.travelsupport",
+            "certificate_hash": "329f7505318f77674289714eb753b8cc466e3058"
+          }
+        },
+        {
+          "client_id": "234161967086-qmet65soiebj9f5pp25qb8is64a669ed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5Lkom6Cg8Wcc6igazXaO47duH-3kUAi0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234161967086-qmet65soiebj9f5pp25qb8is64a669ed.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
