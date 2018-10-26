@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AccountSetupActivity">
+
+    <include layout="@layout/app_bar_layout" android:id="@+id/profile_completion_page_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/back"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageId"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/cool"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <EditText
+            android:id="@+id/nameInId"
+            android:layout_marginTop="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter User Name"
+            android:textColorHint="#c9c5c5"
+            android:textColor="#aba4a4"
+            android:inputType="textPersonName"
+            android:background="@drawable/input_outline"
+            android:padding="15dp"/>
+
+        <EditText
+            android:id="@+id/dateInId"
+            android:layout_marginTop="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Your Birth Date"
+            android:textColorHint="#c9c5c5"
+            android:textColor="#aba4a4"
+            android:background="@drawable/input_outline"
+            android:padding="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Gender: "
+                android:textSize="20sp"
+                android:textColor="#c9c5c5"
+                android:padding="15dp"/>
+
+            <RadioGroup
+                android:id="@+id/radioBtnId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/maleRadioBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Male"
+                    android:textColor="#c9c5c5"
+                    android:textSize="18sp"
+                    android:padding="15dp"
+                    android:buttonTint="#FFFFFF"/>
+
+                <RadioButton
+                    android:id="@+id/femaleRadioBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:text="Female"
+                    android:textColor="#c9c5c5"
+                    android:textSize="18sp"
+                    android:padding="15dp"
+                    android:buttonTint="#FFFFFF"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/setupAccBtnId"
+            android:layout_marginTop="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Setup Account"
+            android:textStyle="bold"
+            android:padding="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

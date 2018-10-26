@@ -89,7 +89,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                         progressDialog.dismiss();
                         Toast.makeText(getApplicationContext(),"Registered Successfully..!!",Toast.LENGTH_SHORT).show();
                         finish();
-                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                        Intent intent = new Intent(getApplicationContext(), AccountSetupActivity.class);
                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                         startActivity(intent);
 
